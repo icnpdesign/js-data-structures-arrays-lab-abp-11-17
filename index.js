@@ -23,6 +23,6 @@ function appendDriver () {
 }
 
 function prependDriver () {
-  const newestDrivers = [...drivers.slice (0, 3)] ;
+  const newestDrivers = ['Arnold'...drivers.slice] ;
   return newestDrivers;
 }
