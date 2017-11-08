@@ -32,7 +32,7 @@ function removeLastDriver () {
   return removeDrivers;
 }
 
-function removeLastDriver () {
+function removedLastDriver () {
   const removedDrivers = drivers.slice(1, 2) ;
   return removedDrivers;
 }
