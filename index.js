@@ -19,5 +19,10 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver () {
   const newDrivers = [...drivers.slice (0, 3), 'Broom'] ;
-  return newDrivers; 
+  return newDrivers;
+}
+
+function appendDriver () {
+  const newestDrivers = [...drivers.slice (0, 3)] ;
+  return newestDrivers;
 }
