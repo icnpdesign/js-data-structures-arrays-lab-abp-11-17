@@ -22,7 +22,7 @@ function appendDriver () {
   return newDrivers;
 }
 
-function appendDriver () {
+function prependDriver () {
   const newestDrivers = [...drivers.slice (0, 3)] ;
   return newestDrivers;
 }
